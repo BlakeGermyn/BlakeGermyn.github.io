@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Untitled Document</title>
+	<script type="text/javascript">
+	  function myFunction(){
+		  alert("Thank you for your enquiry!");
+	  }
+	</script>
+</head>
+
+<body>
+<div class="nameheader">Blake Germyn</div>
+		
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About me</a></li>
+		<li id="dropdown-initiate"><a href="contact us.html">Contact</a></li>
+    </ul>		            
+	<div class="insta"><a href="https://www.instagram.com"><img src="logo/instagram.svg" alt="#"></a></div>
+	<div class="facebook"><a href="https://www.facebook.com"><img src="logo/facebook.svg" alt="#"></a></div>
+	<div class="twitter"><a href="https://www.twitter.com"><img src="logo/twitter.svg" alt="#"></a></div>
+</nav>	
+<!--Hamburger code from https://alvarotrigo.com/blog/hamburger-menu-css/ -->
+<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a class="menu__item" href="index.html">Home</a></li>
+      <li><a class="menu__item" href="about.html">About</a></li>
+      <li><a class="menu__item" href="contact.html">Contact</a></li> 
+	  <li><a class="menu__item" href="https://www.facebook.com">Facebook</a></li>
+      <li><a class="menu__item" href="https://www.twitter.com">Twitter</a></li>
+    </ul>
+  </div>
+
+<div class="container">
+  <div class="form-content">
+    <form>
+	     <h1 id="formheader">Get In Touch</h1>
+		       <input type="text" id="fname" name="firstname" placeholder="First name.."/> 
+			   <input type="text" id="lname" name="lastname" placeholder="Last name.."/> 
+			   <input type="email" id="email" name="email" placeholder="Email.."/> 
+			   <input type="text" id="phone" name="phonenum" placeholder="Phone number..."/> 
+			   <textarea id="message" rows="4" placeholder="What would you like to enquire about?"></textarea>
+			   <button onclick="myFunction()">Send</button>
+	</form>
+  </div>
+</div>
+
+</body>
+</html>
