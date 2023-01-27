@@ -33,6 +33,11 @@ _____
 * [Google Icons](https://fonts.google.com/icons)
   * Hamburger icon used via google icons for the mobile/tablets versions of navigation.
   
+  # Testings
+Testing was done on the responsiveness of the website layout across the three main screen sizes used, utilizing a chrome "Width and Height" extension to test different resolutions. 
+## Findings
+My findings were that there were breakpoints within the website that were remedied using alternative interface design. Examples include The navigation bar for desktops being replaced by a hamburger menu for mobiles and tablets. 
+  
 # Outsourced Code 
 
 [Hamburger Navigation](https://alvarotrigo.com/blog/hamburger-menu-css)
